@@ -1,12 +1,16 @@
-#pragma once
+#ifndef GAMEOBJECT_H
+#define GAMEOBJECT_H
 
 #include <SFML/Graphics.hpp>
 
 class GameObject : public sf::Sprite {
 public:
     GameObject(float x, float y, const std::string& filename);
-    virtual void Update() = 0;
+
+    virtual void update() = 0;
+
 private:
-    sf::Texture* texture = new sf::Texture;
     void loadTexture(const std::string& filename);
 };
+
+#endif // GAMEOBJECT_H

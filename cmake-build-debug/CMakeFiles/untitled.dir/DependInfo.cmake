@@ -8,9 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Nikita/Desktop/nasa-spaceapps-rover/main.cpp" "C:/Users/Nikita/Desktop/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.obj"
+  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/Asteroid.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/Asteroid.cpp.o"
+  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/GameObject.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/GameObject.cpp.o"
+  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/Spacecraft.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/Spacecraft.cpp.o"
+  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/main.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

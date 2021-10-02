@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/untitled.dir/main.cpp.obj"
-  "untitled.exe"
-  "untitled.exe.manifest"
-  "untitled.lib"
+  "CMakeFiles/untitled.dir/Asteroid.cpp.o"
+  "CMakeFiles/untitled.dir/GameObject.cpp.o"
+  "CMakeFiles/untitled.dir/Spacecraft.cpp.o"
+  "CMakeFiles/untitled.dir/main.cpp.o"
+  "untitled"
   "untitled.pdb"
 )
 
