@@ -15,6 +15,8 @@ Spacecraft.h
 /home/tima/Coding/C&C++/nasa-spaceapps-rover/Spacecraft.h
 SFML/Window/Keyboard.hpp
 -
+iostream
+-
 
 /home/tima/Coding/C&C++/nasa-spaceapps-rover/Spacecraft.h
 GameObject.h
