@@ -5,14 +5,15 @@
 #define sign(x) x > 0 - x < 0
 
 Spacecraft::Spacecraft(float x, float y) : GameObject(x, y, "images/spacecraft/spacecraft.png") {
-	this->setScale(imageScale, imageScale);
+	setScale(imageScale, imageScale);
+   
 }
 
 void Spacecraft::processInput() {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
         velocity += speedStep * direction;
 	} else if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)) {
-		velocity.y += speedStep * ((velocity.y <= speedLimit) + direction.y);
+		velocity += speedStep * -direction;
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
