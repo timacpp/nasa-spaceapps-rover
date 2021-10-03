@@ -9,6 +9,9 @@ public:
 
     virtual void update() = 0;
 
+protected:
+    sf::Vector2f getSize();
+
 private:
     void loadTexture(const std::string& filename);
 };

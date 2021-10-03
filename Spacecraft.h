@@ -7,18 +7,18 @@ class Spacecraft : public GameObject {
 public: 
 	Spacecraft(float x, float y);
 
-	void processInput();
-
 	void update() override;
 
 private:
-    const float speedStep    = 0.10f;
-    const float speedLimit   = 10.0f;
-    const float rotationStep = 1.00f;
-    const float imageScale   = 0.10f;
+    const float speedStep    = 0.1f;
+    const float rotationStep = 1.f;
+    const float imageScale   = 0.1f;
+    const sf::Vector2f maxVelocity {10.f, 10.f};
 
-    sf::Vector2f velocity {0, 0};
-    sf::Vector2f direction{0, -1.0f};
+    sf::Vector2f velocity {0.f, 0.f};
+    sf::Vector2f direction{0.f, -1.f};
+
+    void processInput();
 };
 
 

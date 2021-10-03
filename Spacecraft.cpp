@@ -1,19 +1,17 @@
 #include "Spacecraft.h"
 #include <SFML/Window/Keyboard.hpp>
-#include <iostream>
 
 #define sign(x) x > 0 - x < 0
 
 Spacecraft::Spacecraft(float x, float y) : GameObject(x, y, "images/spacecraft/spacecraft.png") {
-	setOrigin(437.5f, 600.0f);
-	setScale(imageScale, imageScale);
+	this->setScale(imageScale, imageScale);
 }
 
 void Spacecraft::processInput() {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
         velocity += speedStep * direction;
 	} else if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)) {
-		velocity += speedStep * -direction;
+		velocity -= speedStep * direction;
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
@@ -35,5 +33,6 @@ void Spacecraft::processInput() {
 }
 
 void Spacecraft::update() {
-	move(velocity);
+    this->processInput();
+	this->move(velocity);
 }

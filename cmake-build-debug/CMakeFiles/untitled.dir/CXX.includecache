@@ -6,19 +6,11 @@
 
 #IncludeRegexTransform: 
 
+/home/tima/Coding/C&C++/nasa-spaceapps-rover/GameObject.cpp
+GameObject.h
+/home/tima/Coding/C&C++/nasa-spaceapps-rover/GameObject.h
+
 /home/tima/Coding/C&C++/nasa-spaceapps-rover/GameObject.h
 SFML/Graphics.hpp
 -
-
-/home/tima/Coding/C&C++/nasa-spaceapps-rover/Spacecraft.cpp
-Spacecraft.h
-/home/tima/Coding/C&C++/nasa-spaceapps-rover/Spacecraft.h
-SFML/Window/Keyboard.hpp
--
-iostream
--
-
-/home/tima/Coding/C&C++/nasa-spaceapps-rover/Spacecraft.h
-GameObject.h
-/home/tima/Coding/C&C++/nasa-spaceapps-rover/GameObject.h
 
