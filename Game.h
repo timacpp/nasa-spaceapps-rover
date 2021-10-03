@@ -7,6 +7,7 @@
 #include <vector>
 #include "Spacecraft.h"
 #include "GameObject.h"
+#include "World.h"
 
 class Game {
 public:
@@ -20,6 +21,7 @@ private:
 	sf::View* view;
 	Spacecraft spacecraft;
 	std::vector<GameObject> gameObjects;
+	World world = World();
 
 	void processInput();
 	void update();

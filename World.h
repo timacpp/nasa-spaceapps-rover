@@ -1,12 +1,13 @@
 #ifndef WORLD
 #define WORLD
 
-#include "GameObject.h"
+#include "GameTile.h"
 #include <vector>
 
 class World {
-	std::vector<GameObject> gameWorld;
+	std::vector<GameTile> gameWorld;
 public:
 	World();
+	std::vector<GameTile>& getVector();
 };
 #endif // !WORLD

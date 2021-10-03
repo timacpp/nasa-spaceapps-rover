@@ -1,4 +1,5 @@
 #include "Game.h"
+#include "World.h"
 
 Game::Game(){
 	initializeWindow();
@@ -20,6 +21,8 @@ void Game::initializeWindow() {
 }
 
 void Game::start() {
+	//window->draw(world.getVector()[0]);
+	//window->display();
 	while (window->isOpen()) {
 		draw();
 		processInput();
@@ -45,7 +48,11 @@ void Game::update() {
 void Game::draw() {
 	window->clear();
 	window->setView(*view);
-	window->draw(*backgroundSprite);
+	//window->draw(*backgroundSprite);
+	for (auto el : world.getVector()) {
+		window->draw(el);
+	}
+	window->draw(world.getVector()[24]);
 	window->draw(spacecraft);
 	window->display();
 }
