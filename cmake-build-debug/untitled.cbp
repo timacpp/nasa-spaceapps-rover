@@ -82,28 +82,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/Asteroid.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/Asteroid.h">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/GameObject.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/GameObject.h">
-			<Option target="untitled"/>
-		</Unit>
 		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/Generator.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/Spacecraft.cpp">
+		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/src/Game.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/Spacecraft.h">
+		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/src/Game.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/main.cpp">
+		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/src/main.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/src/object/GameObject.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/src/object/GameObject.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/src/object/GameTile.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/src/object/GameTile.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/src/object/Spacecraft.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/src/object/Spacecraft.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/src/space/World.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/src/space/World.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/tima/Coding/C&amp;C++/nasa-spaceapps-rover/CMakeLists.txt">

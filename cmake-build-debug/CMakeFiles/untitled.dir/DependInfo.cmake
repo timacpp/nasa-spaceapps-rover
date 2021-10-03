@@ -8,10 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/Asteroid.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/Asteroid.cpp.o"
-  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/GameObject.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/GameObject.cpp.o"
-  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/Spacecraft.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/Spacecraft.cpp.o"
-  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/main.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
+  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/src/Game.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/src/Game.cpp.o"
+  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/src/main.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/src/main.cpp.o"
+  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/src/object/GameObject.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/src/object/GameObject.cpp.o"
+  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/src/object/GameTile.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/src/object/GameTile.cpp.o"
+  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/src/object/Spacecraft.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/src/object/Spacecraft.cpp.o"
+  "/home/tima/Coding/C&C++/nasa-spaceapps-rover/src/space/World.cpp" "/home/tima/Coding/C&C++/nasa-spaceapps-rover/cmake-build-debug/CMakeFiles/untitled.dir/src/space/World.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

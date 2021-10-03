@@ -1,7 +1,7 @@
-#ifndef WORLD
-#define WORLD
+#ifndef WORLD_H
+#define WORLD_H
 
-#include "GameTile.h"
+#include "../object/GameTile.h"
 #include <vector>
 
 class World {
@@ -10,4 +10,4 @@ public:
 	World();
 	std::vector<GameTile>& getVector();
 };
-#endif // !WORLD
+#endif // WORLD_H

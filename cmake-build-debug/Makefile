@@ -129,101 +129,149 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-Asteroid.o: Asteroid.cpp.o
-.PHONY : Asteroid.o
+src/Game.o: src/Game.cpp.o
+.PHONY : src/Game.o
 
 # target to build an object file
-Asteroid.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Asteroid.cpp.o
-.PHONY : Asteroid.cpp.o
+src/Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Game.cpp.o
+.PHONY : src/Game.cpp.o
 
-Asteroid.i: Asteroid.cpp.i
-.PHONY : Asteroid.i
+src/Game.i: src/Game.cpp.i
+.PHONY : src/Game.i
 
 # target to preprocess a source file
-Asteroid.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Asteroid.cpp.i
-.PHONY : Asteroid.cpp.i
+src/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Game.cpp.i
+.PHONY : src/Game.cpp.i
 
-Asteroid.s: Asteroid.cpp.s
-.PHONY : Asteroid.s
+src/Game.s: src/Game.cpp.s
+.PHONY : src/Game.s
 
 # target to generate assembly for a file
-Asteroid.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Asteroid.cpp.s
-.PHONY : Asteroid.cpp.s
+src/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Game.cpp.s
+.PHONY : src/Game.cpp.s
 
-GameObject.o: GameObject.cpp.o
-.PHONY : GameObject.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-GameObject.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/GameObject.cpp.o
-.PHONY : GameObject.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-GameObject.i: GameObject.cpp.i
-.PHONY : GameObject.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-GameObject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/GameObject.cpp.i
-.PHONY : GameObject.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-GameObject.s: GameObject.cpp.s
-.PHONY : GameObject.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-GameObject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/GameObject.cpp.s
-.PHONY : GameObject.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-Spacecraft.o: Spacecraft.cpp.o
-.PHONY : Spacecraft.o
+src/object/GameObject.o: src/object/GameObject.cpp.o
+.PHONY : src/object/GameObject.o
 
 # target to build an object file
-Spacecraft.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Spacecraft.cpp.o
-.PHONY : Spacecraft.cpp.o
+src/object/GameObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/object/GameObject.cpp.o
+.PHONY : src/object/GameObject.cpp.o
 
-Spacecraft.i: Spacecraft.cpp.i
-.PHONY : Spacecraft.i
+src/object/GameObject.i: src/object/GameObject.cpp.i
+.PHONY : src/object/GameObject.i
 
 # target to preprocess a source file
-Spacecraft.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Spacecraft.cpp.i
-.PHONY : Spacecraft.cpp.i
+src/object/GameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/object/GameObject.cpp.i
+.PHONY : src/object/GameObject.cpp.i
 
-Spacecraft.s: Spacecraft.cpp.s
-.PHONY : Spacecraft.s
+src/object/GameObject.s: src/object/GameObject.cpp.s
+.PHONY : src/object/GameObject.s
 
 # target to generate assembly for a file
-Spacecraft.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Spacecraft.cpp.s
-.PHONY : Spacecraft.cpp.s
+src/object/GameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/object/GameObject.cpp.s
+.PHONY : src/object/GameObject.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/object/GameTile.o: src/object/GameTile.cpp.o
+.PHONY : src/object/GameTile.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/object/GameTile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/object/GameTile.cpp.o
+.PHONY : src/object/GameTile.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/object/GameTile.i: src/object/GameTile.cpp.i
+.PHONY : src/object/GameTile.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/object/GameTile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/object/GameTile.cpp.i
+.PHONY : src/object/GameTile.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/object/GameTile.s: src/object/GameTile.cpp.s
+.PHONY : src/object/GameTile.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/object/GameTile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/object/GameTile.cpp.s
+.PHONY : src/object/GameTile.cpp.s
+
+src/object/Spacecraft.o: src/object/Spacecraft.cpp.o
+.PHONY : src/object/Spacecraft.o
+
+# target to build an object file
+src/object/Spacecraft.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/object/Spacecraft.cpp.o
+.PHONY : src/object/Spacecraft.cpp.o
+
+src/object/Spacecraft.i: src/object/Spacecraft.cpp.i
+.PHONY : src/object/Spacecraft.i
+
+# target to preprocess a source file
+src/object/Spacecraft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/object/Spacecraft.cpp.i
+.PHONY : src/object/Spacecraft.cpp.i
+
+src/object/Spacecraft.s: src/object/Spacecraft.cpp.s
+.PHONY : src/object/Spacecraft.s
+
+# target to generate assembly for a file
+src/object/Spacecraft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/object/Spacecraft.cpp.s
+.PHONY : src/object/Spacecraft.cpp.s
+
+src/space/World.o: src/space/World.cpp.o
+.PHONY : src/space/World.o
+
+# target to build an object file
+src/space/World.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/space/World.cpp.o
+.PHONY : src/space/World.cpp.o
+
+src/space/World.i: src/space/World.cpp.i
+.PHONY : src/space/World.i
+
+# target to preprocess a source file
+src/space/World.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/space/World.cpp.i
+.PHONY : src/space/World.cpp.i
+
+src/space/World.s: src/space/World.cpp.s
+.PHONY : src/space/World.s
+
+# target to generate assembly for a file
+src/space/World.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/space/World.cpp.s
+.PHONY : src/space/World.cpp.s
 
 # Help Target
 help:
@@ -234,18 +282,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled"
-	@echo "... Asteroid.o"
-	@echo "... Asteroid.i"
-	@echo "... Asteroid.s"
-	@echo "... GameObject.o"
-	@echo "... GameObject.i"
-	@echo "... GameObject.s"
-	@echo "... Spacecraft.o"
-	@echo "... Spacecraft.i"
-	@echo "... Spacecraft.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Game.o"
+	@echo "... src/Game.i"
+	@echo "... src/Game.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/object/GameObject.o"
+	@echo "... src/object/GameObject.i"
+	@echo "... src/object/GameObject.s"
+	@echo "... src/object/GameTile.o"
+	@echo "... src/object/GameTile.i"
+	@echo "... src/object/GameTile.s"
+	@echo "... src/object/Spacecraft.o"
+	@echo "... src/object/Spacecraft.i"
+	@echo "... src/object/Spacecraft.s"
+	@echo "... src/space/World.o"
+	@echo "... src/space/World.i"
+	@echo "... src/space/World.s"
 .PHONY : help
 
 

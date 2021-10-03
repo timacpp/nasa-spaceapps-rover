@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/untitled.dir/Asteroid.cpp.o"
-  "CMakeFiles/untitled.dir/GameObject.cpp.o"
-  "CMakeFiles/untitled.dir/Spacecraft.cpp.o"
-  "CMakeFiles/untitled.dir/main.cpp.o"
+  "CMakeFiles/untitled.dir/src/Game.cpp.o"
+  "CMakeFiles/untitled.dir/src/main.cpp.o"
+  "CMakeFiles/untitled.dir/src/object/GameObject.cpp.o"
+  "CMakeFiles/untitled.dir/src/object/GameTile.cpp.o"
+  "CMakeFiles/untitled.dir/src/object/Spacecraft.cpp.o"
+  "CMakeFiles/untitled.dir/src/space/World.cpp.o"
   "untitled"
   "untitled.pdb"
 )
