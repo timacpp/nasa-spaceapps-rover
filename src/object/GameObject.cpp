@@ -5,8 +5,8 @@ GameObject::GameObject(float x, float y,
                        float scale) : sf::Sprite() {
     this->setPosition(x, y);
     this->loadTexture(filename);
-    this->setScale(scale, scale);
     this->setOrigin(getSize() * 0.5f);
+    this->setScale(scale, scale);
 }
 
 void GameObject::loadTexture(const std::string& filename) {
