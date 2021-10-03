@@ -5,8 +5,8 @@
 #define sign(x) x > 0 - x < 0
 
 Spacecraft::Spacecraft(float x, float y) : GameObject(x, y, "images/spacecraft/spacecraft.png") {
+	setOrigin(437.5f, 600.0f);
 	setScale(imageScale, imageScale);
-   
 }
 
 void Spacecraft::processInput() {
