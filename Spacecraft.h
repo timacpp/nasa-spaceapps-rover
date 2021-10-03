@@ -5,7 +5,7 @@
 
 class Spacecraft : public GameObject {
 public: 
-	Spacecraft(float x, float y);
+	Spacecraft();
 
 	void update() override;
 

@@ -3,7 +3,7 @@
 
 #define sign(x) x > 0 - x < 0
 
-Spacecraft::Spacecraft(float x, float y) : GameObject(x, y, "images/spacecraft/spacecraft.png") {
+Spacecraft::Spacecraft() : GameObject(960.0f, 540.0f, "images/spacecraft/spacecraft.png") {
 	this->setScale(imageScale, imageScale);
 }
 
