@@ -1,4 +1,4 @@
-# Rover: the game no one wanted, yet here it is
+# Rover: the game
 
 This is an **unfinished** game developed for NASA Spaceapps 2021, a worldwide hackathon.
 The idea is to travel beyond the space limits in search of habitable planets.
