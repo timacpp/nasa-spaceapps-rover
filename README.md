@@ -7,5 +7,7 @@ But that's not all: the main character is my weiner dog, unironically named Rove
 # Results
 Our team got **second** place in local Cambridge judgement and we were included in top 15% among participants all around the world.
 
+![alt text](https://github.com/timacpp/nasa-spaceapps-rover/blob/main/images/preview.gif?raw=true)
+
 # Credits
 Thanks to [Dashashsh](https://github.com/Dashashsh) for providing beautiful graphics!
